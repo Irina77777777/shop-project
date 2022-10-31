@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    line-height: 100px;
+}
+
+section {
+    background-color: grey;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+}
+
+article {
+    width: calc(33.3% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+}
